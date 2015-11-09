@@ -7,7 +7,7 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("Get current value of User or System env variable")] // File description
+[assembly: AssemblyTitle("Get current value of User or Machine env variable")] // File description
 [assembly: AssemblyDescription("")] // ?
 [assembly: AssemblyConfiguration("")] // ?
 [assembly: AssemblyCompany("Sql Quantum Leap")]
