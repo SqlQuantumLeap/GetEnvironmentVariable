@@ -21,7 +21,7 @@ namespace GetEnvironmentVariable
             }
             catch (ArgumentException _ArgException)
             {
-                Display.Error(_ArgException.Message + " (" + _ArgException.ParamName + ")");
+                Display.Error(_ArgException.Message);
 
                 return 1;
             }
@@ -40,7 +40,8 @@ namespace GetEnvironmentVariable
             }
 
 
-            Console.Out.Write(Environment.GetEnvironmentVariable(_InputParams.VariableName, _InputParams.VariableScope));
+            Console.Out.Write(Environment.GetEnvironmentVariable(
+                _InputParams.VariableName, _InputParams.VariableScope));
 
             return 0;
         }
