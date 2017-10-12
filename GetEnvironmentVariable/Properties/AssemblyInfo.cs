@@ -1,18 +1,19 @@
 ﻿/*
  * "Get Environment Variable"
- * Copyright (c) 2015 Sql Quantum Leap. All rights reserved.
+ * Copyright (c) 2015 Solomon Rutzky. All rights reserved.
+ * 
+ * https://github.com/SqlQuantumLeap/GetEnvironmentVariable
  * 
  */
 using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("Get current value of User or Machine env variable")] // File description
 [assembly: AssemblyDescription("")] // ?
 [assembly: AssemblyConfiguration("")] // ?
-[assembly: AssemblyCompany("Sql Quantum Leap")]
+[assembly: AssemblyCompany("Solomon Rutzky (https://SqlQuantumLeap.com/)")]
 [assembly: AssemblyProduct("Get Environment Variable")] // Product name
-[assembly: AssemblyCopyright("Copyright © 2015 Sql Quantum Leap. All rights reserved.")]
+[assembly: AssemblyCopyright("Copyright © 2015 Solomon Rutzky. All rights reserved.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
