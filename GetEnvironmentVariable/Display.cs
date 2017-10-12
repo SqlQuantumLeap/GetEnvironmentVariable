@@ -1,6 +1,8 @@
 ﻿/*
  * "Get Environment Variable"
- * Copyright (c) 2015 Sql Quantum Leap. All rights reserved.
+ * Copyright (c) 2015 Solomon Rutzky. All rights reserved.
+ * 
+ * https://github.com/SqlQuantumLeap/GetEnvironmentVariable
  * 
  */
 using System;
@@ -24,7 +26,7 @@ namespace GetEnvironmentVariable
             Console.WriteLine("\nGetEnvironmentVariable");
             Console.Write("Version ");
             Console.WriteLine(System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString(3));
-            Console.WriteLine("Copyright (c) 2015 Sql Quantum Leap. All rights reserved.\n");
+            Console.WriteLine("Copyright (c) 2015 Solomon Rutzky. All rights reserved.\n");
 
             Console.WriteLine("Usage: GetEnvironmentVariable");
             Console.WriteLine("\t-name \"variable name\"");
@@ -35,7 +37,7 @@ namespace GetEnvironmentVariable
             Console.WriteLine("\tCommand-line option names are case-sensitive.");
             Console.WriteLine("\tEnvironment variable names are not case-sensitive.\n");
 
-            Console.WriteLine("Visit http://SqlQuantumLeap.com for other useful utilities and more.");
+            Console.WriteLine("Visit https://SqlQuantumLeap.com/ for other useful utilities and more.");
 
             return;
         }

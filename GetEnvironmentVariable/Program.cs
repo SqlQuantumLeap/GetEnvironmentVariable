@@ -1,6 +1,8 @@
 ﻿/*
  * "Get Environment Variable"
- * Copyright (c) 2015 Sql Quantum Leap. All rights reserved.
+ * Copyright (c) 2015 Solomon Rutzky. All rights reserved.
+ * 
+ * https://github.com/SqlQuantumLeap/GetEnvironmentVariable
  * 
  */
 using System;
@@ -13,7 +15,7 @@ namespace GetEnvironmentVariable
         {
             InputParameters _InputParams;
 
-            Console.Title = "Get Environment Variable (from Sql Quantum Leap -- http://SqlQuantumLeap.com/)";
+            Console.Title = "Get Environment Variable (from Solomon Rutzky -- https://SqlQuantumLeap.com/)";
 
             try
             {

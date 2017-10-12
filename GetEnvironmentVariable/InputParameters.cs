@@ -1,6 +1,8 @@
 ﻿/*
  * "Get Environment Variable"
- * Copyright (c) 2015 Sql Quantum Leap. All rights reserved.
+ * Copyright (c) 2015 Solomon Rutzky. All rights reserved.
+ * 
+ * https://github.com/SqlQuantumLeap/GetEnvironmentVariable
  * 
  */
 using System;
